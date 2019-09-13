@@ -24,19 +24,19 @@ consist in:
 - Creating three Activities: BandActivity, AlbumActivity, and
   SongActivity;
 - In BandActivity, the application should:
-		- Read the contents of the CSV file;
+	- Read the contents of the CSV file;
     - Display the names of the bands in a RecyclerView;
     - When the user clicks on an item in the list, AlbumActivity should
       appear.
 - In AlbumActivity, the application should:
-		- Read the contents of the CSV file;
-		- Display a RecyclerView with the titles of the albums corresponding
+	- Read the contents of the CSV file;
+	- Display a RecyclerView with the titles of the albums corresponding
 		  to the Band that was clicked on;
     - When the user clicks on an item in the list, SongActivity should
       appear.
 - In SongActivity, the application should:
-		- Read the contents of the CSV file;
-		- Display in a RecyclerView the titles of the songs in the album
+	- Read the contents of the CSV file;
+	- Display in a RecyclerView the titles of the songs in the album
 		  that the user selected.
 
 The CSV file contains:
