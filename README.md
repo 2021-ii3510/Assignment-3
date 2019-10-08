@@ -58,7 +58,7 @@ features are implemented correctly before working on bonuses.
 
 ## Deadline for submission
 
-Deadline: November 5th, 2019 23:59
+Deadline: October 22nd, 2019 23:59
 
 Lateness policy applies if still available. Issues with configuring the
 IDE or working with Git/GitHub will not warrant any deadline extension.
