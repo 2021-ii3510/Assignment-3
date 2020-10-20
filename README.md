@@ -23,21 +23,16 @@ consist in:
 
 - Creating three Activities: BandActivity, AlbumActivity, and
   SongActivity;
-- In BandActivity, the application should:
-	- Read the contents of the CSV file;
-    - Display the names of the bands in a RecyclerView;
-    - When the user clicks on an item in the list, AlbumActivity should
-      appear.
-- In AlbumActivity, the application should:
-	- Read the contents of the CSV file;
-	- Display a RecyclerView with the titles of the albums corresponding
-		  to the Band that was clicked on;
-    - When the user clicks on an item in the list, SongActivity should
-      appear.
-- In SongActivity, the application should:
-	- Read the contents of the CSV file;
-	- Display in a RecyclerView the titles of the songs in the album
-		  that the user selected.
+- In BandActivity, the application should: - Read the contents of the CSV file;
+  - Display the names of the bands in a RecyclerView;
+  - When the user clicks on an item in the list, AlbumActivity should
+    appear.
+- In AlbumActivity, the application should: - Read the contents of the CSV file; - Display a RecyclerView with the titles of the albums corresponding
+  to the Band that was clicked on;
+  - When the user clicks on an item in the list, SongActivity should
+    appear.
+- In SongActivity, the application should: - Read the contents of the CSV file; - Display in a RecyclerView the titles of the songs in the album
+  that the user selected.
 
 The CSV file contains:
 
@@ -52,13 +47,13 @@ All this section is bonus work. Please make sure that the principal
 features are implemented correctly before working on bonuses.
 
 1. Instead of reading the contents of the file in every activity, pass
-	 the necessary information with Intents;
+   the necessary information with Intents;
 2. Use a custom layout for to display the items of the RecyclerView so
-	 that it can display the album's artwork;
+   that it can display the album's artwork;
 
 ## Deadline for submission
 
-Deadline: October 22nd, 2019 23:59
+Deadline: November 4th 2020, 23:59 CET.
 
 Lateness policy applies if still available. Issues with configuring the
 IDE or working with Git/GitHub will not warrant any deadline extension.
